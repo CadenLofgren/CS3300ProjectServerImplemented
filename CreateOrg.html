@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Organization</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>Create An Organizationn</h1>
+        <br>
+
+        <label for="nameOrg">Name:<br></label>
+        <input type="text" id="nameOrg" name="nameOrg" placeholder="Name of Organization" required>
+
+
+        <br><br />
+        <label for="opening">When will employees show up for the opening shift (optional) <br></label>
+
+        <input type="time" id="emplOpen" name="emplOpen" />
+        <br><br />
+        <label for="opening">When will employees leave for the closing shift (optional) <br></label>
+
+        <input type="time" id="emplClose" name="emplClose" r />
+        <br><br>
+
+        <label for="opening">When does this organization open: <br></label>
+
+        <input type="time" id="opening" name="opening" min="opening" max="close" required />
+
+        <br><br />
+        <label for="close">When does this organization close: <br></label>
+
+        <input type="time" id="close" name="close" required />
+        <br><br />
+        <label for="shiftBlock1">What is this Organization's first shift block <br></label>
+
+        <p><input type="time" id="shift1Opening" name="shift1Opening" required /> to <input type="time" id="shift1Closing" name="shift1Closing" required /></p>
+
+        <label for="shiftBlock1">What is this Organization's second shift block <br></label>
+
+        <p><input type="time" id="shift2Opening" name="shift2Opening" required /> to <input type="time" id="shift2Closing" name="shift2Closing" required /></p>
+
+       
+        <label for="shiftBlock1">What is this Organization's third shift block <br></label>
+
+        <p><input type="time" id="shift2Opening" name="shift2Opening" required /> to <input type="time" id="shift2Closing" name="shift2Closing" required /></p>
+
+
+
+    </body>
+</html>
