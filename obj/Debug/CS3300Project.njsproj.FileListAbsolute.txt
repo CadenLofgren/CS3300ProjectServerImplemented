@@ -1,0 +1,3 @@
+C:\Users\caden\Downloads\CS3300-Project-main\CS3300-Project-main\obj\Debug\CS3300Project.njsproj.AssemblyReference.cache
+C:\Users\caden\Downloads\CS3300-Project-main\CS3300-Project-main\obj\Debug\CS3300Project.njsproj.CoreCompileInputs.cache
+C:\Users\caden\Downloads\CS3300-Project-main\CS3300-Project-main\bin\Microsoft.NodejsTools.WebRole.dll
